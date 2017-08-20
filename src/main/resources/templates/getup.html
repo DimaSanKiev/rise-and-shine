@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Rise and Shine</title>
+
+    <link href="../static/css/app.css" th:href="@{css/app.css}" rel="stylesheet" media="screen"/>
+</head>
+<body>
+<div class="quote">
+    <h1 th:text="${quote}">— Rise and Shine!</h1>
+
+    <a href="javascript:document.location.reload();"
+       ONMOUSEOVER="window.status='Refresh'; return true"
+       ONMOUSEOUT="window.status='ah... that was good'">
+        <button class="button button1">Ещё</button>
+    </a>
+</div>
+</body>
+</html>

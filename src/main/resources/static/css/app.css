@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(235, 235, 245);
+    color: rgb(50, 50, 50);
+}
+
+.quote {
+    font-family: "PT Sans Caption", serif;
+    font-size: 200%;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 27px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    font-family: "PT Sans Bold", sans-serif;
+    background-color: #e7e7e7;
+    color: rgb(50, 50, 50);
+}
