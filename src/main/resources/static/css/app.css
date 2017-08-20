@@ -4,7 +4,7 @@ body {
 }
 
 .quote {
-    font-family: "PT Sans Caption", serif;
+    font-family: "PT Sans Caption", serif !important;
     font-size: 200%;
     text-align: center;
     padding-top: 10%;
@@ -24,7 +24,7 @@ body {
 }
 
 .button1 {
-    font-family: "PT Sans Bold", sans-serif;
+    font-family: "PT Sans Bold", sans-serif !important;
     background-color: #e7e7e7;
     color: rgb(50, 50, 50);
 }
