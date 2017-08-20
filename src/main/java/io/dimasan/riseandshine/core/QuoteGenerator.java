@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class QuotesLoader {
+public class QuoteGenerator {
 
     private Random randomGenerator;
     private List<String> rises;
     private List<String> shines;
 
-    public QuotesLoader() {
+    public QuoteGenerator() {
         randomGenerator = new Random();
         rises = new ArrayList<>();
         shines = new ArrayList<>();
@@ -24,8 +24,11 @@ public class QuotesLoader {
         rises.add("Восстань");
         rises.add("Вскочи");
         rises.add("Поднимись");
+        rises.add("Подорвись");
+        rises.add("Просейся");
+        rises.add("Оживись");
         rises.add("Подымись");
-        rises.add("Продри глаза");
+        rises.add("Продри зенки");
 
         shines.add("бодрствуй");
         shines.add("работай");
@@ -44,6 +47,7 @@ public class QuotesLoader {
         shines.add("мозолься");
         shines.add("рви жилы");
         shines.add("гни хрип");
+        shines.add("паши");
         shines.add("парься");
         shines.add("функциклируй");
         shines.add("шакаль");
