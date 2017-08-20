@@ -5,7 +5,7 @@ body {
 
 .quote {
     font-family: "PT Sans Caption", serif !important;
-    font-size: 200%;
+    font-size: 250%;
     text-align: center;
     padding-top: 10%;
 }
@@ -18,7 +18,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 27px;
+    font-size: 150%;
     margin: 4px 2px;
     cursor: pointer;
 }
