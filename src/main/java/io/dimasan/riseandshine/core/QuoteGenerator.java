@@ -52,6 +52,12 @@ public class QuoteGenerator {
         rises.add("Поднимись над горизонтом");
         rises.add("Эрегируй");
         rises.add("Умножься");
+        rises.add("Образумься");
+        rises.add("Одумайся");
+        rises.add("Прийди в чувство");
+        rises.add("Очувствуйся");
+        rises.add("Прийди в себя");
+        rises.add("Образумься");
 
         shines.add("бодрствуй");
         shines.add("работай");
